@@ -5,16 +5,16 @@
 
 <script>
 export default {
-  data () {
-    return {
-    }
+    data () {
+      return {
+      }
+  },
+  
+  methods: {
   },
 
-  methods: { 
-   },
-
-  created () {
- }
+created () {
+}
 }
 </script>
 
