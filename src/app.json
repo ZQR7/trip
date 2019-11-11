@@ -31,19 +31,19 @@
       "text": "我的",
       "pagePath": "pages/mine/main",
       "iconPath": "static/images/mine.png",
-      "selectedIconPath": "sstatic/images/_mine.png"
+      "selectedIconPath": "static/images/_mine.png"
     }],
 
     "items": [{
       "name": "首页",
       "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
+      "icon": "static/images/home.png",
+      "activeIcon": "static/images/_home.png"
     }, {
       "name": "订单",
       "pagePath": "pages/list/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
+      "icon": "static/images/mine.png",
+      "activeIcon": "static/images/_mine.png"
     }],
     "position": "bottom"
   }
