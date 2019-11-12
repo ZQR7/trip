@@ -5,7 +5,7 @@
         <i-grid-icon>
             <image src="/static/images/user.png" />
         </i-grid-icon>
-        <i-grid-label>Grid</i-grid-label>
+        <i-grid-label>定语</i-grid-label>
     </i-grid-item>
     <i-grid-item i-class="no-border">
         <i-grid-icon>

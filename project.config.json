@@ -9,7 +9,7 @@
 		"coverView": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
-		"checkSiteMap": false,
+		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
 			"ignore": [],
