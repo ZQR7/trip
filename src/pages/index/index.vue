@@ -26,6 +26,9 @@
         <i-grid-label>Grid</i-grid-label>
     </i-grid-item>
   </i-grid>
+  <i-panel title="热门">
+    <view style="padding: 15px;">PANEL 内容区域</view>
+  </i-panel>
   </div>
 </template>
 
