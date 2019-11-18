@@ -18,12 +18,12 @@
     "borderStyle": "white",
 
     "list": [{
-      "text": "首页",
+      "text": "语法学习",
       "pagePath": "pages/index/main",
       "iconPath": "static/images/home.png",
       "selectedIconPath": "static/images/_home.png"
     }, {
-      "text": "地图",
+      "text": "练习",
       "pagePath": "pages/map/main",
       "iconPath": "static/images/map.png",
       "selectedIconPath": "static/images/_map.png"
@@ -35,16 +35,13 @@
     }],
 
     "items": [{
-      "name": "首页",
+      "name": "语法学习",
       "pagePath": "pages/index/main",
-      "icon": "static/images/home.png",
-      "activeIcon": "static/images/_home.png"
-    }, {
-      "name": "订单",
-      "pagePath": "pages/list/main",
-      "icon": "static/images/mine.png",
-      "activeIcon": "static/images/_mine.png"
-    }],
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }
+  ],
+
     "position": "bottom"
   }
 }
