@@ -6,53 +6,8 @@
             <image :src="grid.image" />
         </i-grid-icon>
         <i-grid-label>{{grid.title}}</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>定语从句</i-grid-label>
-    </i-grid-item >
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>倒装句</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>强调句</i-grid-label>
-    </i-grid-item>
-   
-  </i-grid>
-    <i-grid i-class="no-border">
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>状语</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>动词</i-grid-label>
-    </i-grid-item >
-        <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>状语从句</i-grid-label>
-    </i-grid-item>
-    <i-grid-item i-class="no-border">
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>宾语从句</i-grid-label>
-    </i-grid-item>
-  </i-grid>
+    </i-grid-item> 
+    </i-grid>
 
       <i-panel :title="title_name">
           <view style="padding: 15px:">
@@ -72,10 +27,13 @@ export default {
     return {
         title_name:"热门",
         girds:[
-            {title:"定语",image:"/static/images/1.pmg"},
-            {title:"定语从句",image:"/static/images/2.pmg"},
-            {title:"倒装句",image:"/static/images/3.pmg"},
-            {title:"强调句",image:"/static/images/4.pmg"},
+            {title:"定语",image:"/static/images/user.png"},
+            {title:"定语从句",image:"/static/images/user.png"},
+            {title:"倒装句",image:"/static/images/user.png"},
+            {title:"强调句",image:"/static/images/user.png"}
+        ],
+        top:[
+            {name:"名字",address:"",image}
         ]
     }
   },
