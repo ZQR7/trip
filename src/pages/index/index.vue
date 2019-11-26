@@ -30,14 +30,6 @@
     </i-grid-item>
   </i-grid>
 
-  <i-panel :title="title_name">
-    <view style="padding: 15px;">
-      <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
-          <view slot="content">{{item.remark}}</view>
-          <view slot="footer">{{item.address}}</view>
-      </i-card>
-    </view>
-  </i-panel>
   </div>
 </template>
 
@@ -60,6 +52,7 @@ export default {
         {title:"宾语从句",image:"/static/images/8.png"}
       ],
 
+   
       imgUrls: [
         'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
         'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
@@ -81,7 +74,14 @@ export default {
   },
 
   created () {
+    const db = wx.cloud.database({ env: 'edu-868a10' })
+    db.collection('top').get().then(
+      res => {
+        console.log(res.data)
+        this.top = res.data
   }
+  )
+}
 }
 </script>
 

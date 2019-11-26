@@ -1,0 +1,6 @@
+[
+    {"name":"外卖1","address":"地址1","image":"cloud://edu-868a10.6564-edu-868a10/food/2.png","remark":"介绍1"},
+    {"name":"外卖2","address":"地址2","image":"cloud://edu-868a10.6564-edu-868a10/food/2.png","remark":"介绍2"},
+    {"name":"外卖3","address":"地址3","image":"cloud://edu-868a10.6564-edu-868a10/food/2.png","remark":"介绍3"},
+    {"name":"外卖4","address":"地址4","image":"cloud://edu-868a10.6564-edu-868a10/food/2.png","remark":"介绍4"}
+]
