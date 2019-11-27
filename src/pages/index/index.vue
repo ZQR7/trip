@@ -5,7 +5,6 @@
       :autoplay="autoplay"
       :interval="interval"
       :duration="duration"
-      
     >
       <block v-for="img in imgUrls" :key="img">
         <swiper-item>
